@@ -13,9 +13,9 @@
 
     //Create Constants to Store Non Repeating Values
     define('SITEURL', 'https://foodmasters.herokuapp.com/');
-    define('LOCALHOST', '$cleardb_server');
-    define('DB_USERNAME', '$cleardb_username');
-    define('DB_PASSWORD', '$cleardb_password');
+    //define('LOCALHOST', '$cleardb_server');
+    //define('DB_USERNAME', '$cleardb_username');
+    //define('DB_PASSWORD', '$cleardb_password');
     define('DB_NAME', '$cleardb_db');
 
     
