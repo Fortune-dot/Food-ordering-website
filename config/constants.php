@@ -21,7 +21,7 @@
     
         // Connect to DB
     $conn = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $cleardb_db);
-    $db_select = mysqli_select_db($conn, DB_NAME) or die(mysqli_error()); //Selecting Database
+    $db_select = mysqli_select_db($conn, $cleardb_db) or die(mysqli_error()); //Selecting Database
 
 
 ?>
