@@ -2,15 +2,25 @@
     //Start Session
     session_start();
 
+    //Get Heroku ClearDB connection information
+    $cleardb_url = parse_url(getenv("CLEARDB_DATABASE_URL"));
+    $cleardb_server = $cleardb_url["host"];
+    $cleardb_username = $cleardb_url["user"];
+    $cleardb_password = $cleardb_url["pass"];
+    $cleardb_db = substr($cleardb_url["path"],1);
+    $active_group = 'default';
+    $query_builder = TRUE;
 
     //Create Constants to Store Non Repeating Values
-    define('SITEURL', 'http://localhost/onlinefood-order/');
-    define('LOCALHOST', 'localhost');
-    define('DB_USERNAME', 'root');
-    define('DB_PASSWORD', '');
-    define('DB_NAME', 'onlinefoodorder');
+    define('SITEURL', 'https://foodmasters.herokuapp.com/');
+    define('LOCALHOST', '$cleardb_server');
+    define('DB_USERNAME', '$cleardb_username');
+    define('DB_PASSWORD', '$cleardb_password');
+    define('DB_NAME', '$cleardb_db');
+
     
-    $conn = mysqli_connect(LOCALHOST, DB_USERNAME, DB_PASSWORD) or die(mysqli_error()); //Database Connection
+        // Connect to DB
+    $conn = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $cleardb_db);
     $db_select = mysqli_select_db($conn, DB_NAME) or die(mysqli_error()); //Selecting Database
 
 
