@@ -11,6 +11,9 @@
                 <li>
                     <a href="#"><img src="https://img.icons8.com/fluent/48/000000/twitter.png"/>twittet</a>
                 </li>
+                <li>
+                    <a href="#"><img src="https://img.icons8.com/fluent/48/000000/phone.png"/><a href="tel:+1123-456-7890">072475127</a></a>
+                </li>
             </ul>
         </div>
     </section>
@@ -20,7 +23,7 @@
     <section class="footer">
         <div class="container text-center">
             <p>All rights reserved. Designed SD Emmanuel</p>
-              <a href="tel:+1123-456-7890">072475127</a>
+              
         </div>
     </section>
     <!-- footer Section Ends Here -->
