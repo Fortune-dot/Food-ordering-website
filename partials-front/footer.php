@@ -20,7 +20,7 @@
     <section class="footer">
         <div class="container text-center">
             <p>All rights reserved. Designed SD Emmanuel</p>
-              <a href="tel:+1123-456-7890">072444-456-7890</a>
+              <a href="tel:+1123-456-7890">072475127</a>
         </div>
     </section>
     <!-- footer Section Ends Here -->
