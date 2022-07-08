@@ -18,8 +18,7 @@
         <div class="container">
             <div class="logo">
                 <a href="#" title="Logo">
-                    <img src="images/ordersta.png" alt="Restaurant Logo" class="img-responsive">
-                    <h3 class="img-responsive">Japen <span>bakery</span></h3>
+                    <h3 class="img-responsive">Japen <span>baket</span></h3>
                 </a>
             </div>
 
