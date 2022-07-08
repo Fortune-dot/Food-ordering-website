@@ -18,7 +18,7 @@
         <div class="container">
             <div class="logo">
                 <a href="#" title="Logo">
-                    <h3 class="img-responsive">Japen <span>baket</span></h3>
+                    <h3 class="img-responsive">Japenbakery</h3>
                 </a>
             </div>
 
