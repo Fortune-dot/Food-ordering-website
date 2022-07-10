@@ -12,7 +12,7 @@
     $query_builder = TRUE;
 
     //Create Constants to Store Non Repeating Values
-    define('SITEURL', 'https://foodmasters.herokuapp.com/');
+    define('SITEURL', 'https://japbakery.herokuapp.com/');
     define('HOST', '$cleardb_server');
     define('DB_USERNAME', '$cleardb_username');
     define('DB_PASSWORD', '$cleardb_password');
